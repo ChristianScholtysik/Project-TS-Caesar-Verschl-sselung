@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Caesar Verschlüsselung</title>
+  </head>
+  <body>
+    <main>
+      <h1>Caesar Verschlüsselung</h1>
+      <div id="div-encypt-wrap">
+        <form action="" id="div-encypt">
+          <textarea
+            name=""
+            cols="40"
+            rows="9"
+            id="textfield-encrypt"></textarea>
+          <div id="button-wrap">
+            <button type="submit" id="button-encrypt">Verschlüsseln</button>
+            <button type="submit" id="button-decrypt">Entschlüsseln</button>
+            <select name="" id="selectEncryption">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div id="div-decypt-wrap">
+        <form action="" id="div-decypt">
+          <textarea name="" id="textfield-decrypt"></textarea>
+        </form>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
