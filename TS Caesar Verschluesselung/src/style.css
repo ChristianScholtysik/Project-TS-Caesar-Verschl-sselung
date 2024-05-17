@@ -126,6 +126,14 @@ h1 {
   margin: 2rem 18rem;
 }
 
+#div-result {
+  display: flex;
+  background-color: rgb(43, 153, 226);
+  width: 50%;
+  height: 15rem;
+  margin: 2rem 18rem;
+}
+
 form {
   display: flex;
   justify-content: space-around;
